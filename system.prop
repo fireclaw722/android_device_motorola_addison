@@ -75,6 +75,9 @@ ro.sf.lcd_density=480
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Mods
+sys.mod.platformsdkversion=250
+
 # NFC
 ro.hardware.nfc_nci=pn54x
 
