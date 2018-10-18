@@ -30,7 +30,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2018-04-01
+    ro.lineage.build.vendor_security_patch=2018-08-01
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="addison-user 8.0.0 OPN27.76-12-22 24 release-keys" \
