@@ -344,3 +344,9 @@ PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Moto Camera and Widgets
+PRODUCT_PACKAGES += \
+    MotoCamera \
+    CommandCenter \
+    TimeWeather
