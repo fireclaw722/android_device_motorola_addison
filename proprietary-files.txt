@@ -390,6 +390,17 @@ vendor/lib/libOmxApeDec.so
 vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxWmaDec.so
 
+# Moto Mods
++etc/permissions/com.motorola.aov.xml
++etc/permissions/com.motorola.mod.protocols.xml
++etc/permissions/com.motorola.mod.xml
++etc/permissions/com.motorola.moto.xml
++etc/permissions/com.motorola.motodisplay.xml
++lib/libmodhw.so
++lib/libmodmanager_system.so
++-priv-app/ModService/ModService.apk:priv-app/ModService/ModService.apk;PRESIGNED
++vendor/bin/mods_camd
+
 # Network
 -priv-app/QtiTetherService/QtiTetherService.apk
 vendor/lib/libQtiTether.so
