@@ -76,6 +76,9 @@ persist.radio.VT_ENABLE=1
 persist.radio.VT_HYBRID_ENABLE=1
 persist.radio.VT_USE_MDM_TIME=0
 
+# Mods
+sys.mod.platformsdkversion=250
+
 # Media
 media.aac_51_output_enabled=true
 
